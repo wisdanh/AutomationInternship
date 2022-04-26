@@ -28,6 +28,9 @@ class Header(Page):
     def iphone12_link_click(self):
         self.click(*self.iphone12_link)
 
+    def iphone12_link_verify(self, query):
+        self.verify_url_contains_query(query)
+
     def cases_protection_404_verify(self):
         self.verify_partial_text("Oops! That page can’t be found.", *self.cases_protection_404)
 

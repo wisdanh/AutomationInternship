@@ -6,3 +6,4 @@ Feature:  Test for iPhone 12 link functionality
     Given Open Gettop home page
     Then Hover over IPHONE drop down menu
     Then Click on iPhone 12 link
+    Then Verify iphone 12 is in the url

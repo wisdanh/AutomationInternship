@@ -48,4 +48,4 @@ class Page:
             f'Expected text {expected_text} is not in {actual_text}'
 
     def verify_url_contains_query(self, query):
-        assert query in self.driver.current_url, f'{query} not in {self.driver.current_url}'
+        assert query in self.driver.current_url, f'{query} not in current_url {self.driver.current_url}'
