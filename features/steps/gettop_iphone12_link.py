@@ -12,4 +12,3 @@ def iphone12_click(context):
 def iphone12_link_verify(context):
     query = 'iphone-12'
     context.app.header.iphone12_link_verify(query)
-    print(f'iphone')
