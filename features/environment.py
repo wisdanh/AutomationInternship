@@ -10,13 +10,13 @@ def browser_init(context, test_name):
     """
     #context.driver = webdriver.Chrome()
     # context.driver = webdriver.PhantomJS()
-    context.driver = webdriver.Firefox()
+    #context.driver = webdriver.Firefox()
     #executable_path = "C:\Users\trand\PycharmProjects\AutomationInternship\geckodriver.exe"
 
     ## HEADLESS MODE ####
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    # context.driver = webdriver.Chrome(chrome_options=options)
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    context.driver = webdriver.Chrome(chrome_options=options)
 
     ### EventFiringWebDriver - log file ###
     ### for drivers ###
