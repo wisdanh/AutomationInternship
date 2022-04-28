@@ -6,7 +6,7 @@ class Header(Page):
     cases_protection_link = (By.CSS_SELECTOR, '#menu-item-485 a[href="/cases"]')
     accessories = (By.ID, 'menu-item-472')
     cases_protection_404 = (By.CSS_SELECTOR, 'h1.page-title')
-    iphone = (By.ID, 'menu-item-469')
+    iphone = (By.CSS_SELECTOR, '#menu-item-469')
     iphone12_link = (By.CSS_SELECTOR, '#menu-item-484 a')
     mac = (By.ID, 'menu-item-468')
     macbookair = (By.ID, 'menu-item-379')

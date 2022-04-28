@@ -8,9 +8,10 @@ def browser_init(context, test_name):
     :param context: Behave context
     :param test_name: scenario.name
     """
-    context.driver = webdriver.Chrome()
+    #context.driver = webdriver.Chrome()
     # context.driver = webdriver.PhantomJS()
-    # context.driver = webdriver.Firefox(executable_path='/Users/svetlanalevinsohn/JobEasy/7-python-selenium-automation/geckodriver')
+    context.driver = webdriver.Firefox()
+    #executable_path = "C:\Users\trand\PycharmProjects\AutomationInternship\geckodriver.exe"
 
     ## HEADLESS MODE ####
     # options = webdriver.ChromeOptions()
